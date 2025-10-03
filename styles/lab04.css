@@ -1,0 +1,91 @@
+/*
+filename: lab04
+author: Luu Tri Khoa Tung
+created: September 26, 2025
+last modified: September 26, 2025
+description: lab04.html
+*/
+
+/* modify h1 styles */
+h1 { 
+    color: purple; 
+    font-size: 2em; 
+    font-weight: bold; 
+}
+
+/* change the font and color of web texts  */
+* { 
+    font-family: calibri, sans-serif; 
+    color: #2f4f4f;
+}
+
+/* modify h2 styles */
+h2 {
+    color: rgb(0, 128, 128);
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+/* change aside and footer element styles */
+aside, footer {
+    font-style: italic;
+}
+
+/* change h1, h2, h3 font */
+h1, h2, h3 {
+    font-family: arial, sans-serif;
+}
+
+/* modify nav bars styles */
+nav a {
+    border: 1px solid black;
+}
+
+/* modify nav bars hover */
+nav a:hover {
+    background-color: lightblue;
+    border-color: darkblue;
+}
+
+/* modify 'image' id element's alignment */
+#images {
+    text-align: center; 
+    /* careful: conter has US spelling */
+}
+
+#heading-rule {
+    color: red;
+}
+
+/* modify 'special' class element font style */
+.special {
+    color: darkorange;
+    font-weight: bold;
+}
+
+/* align 'january' and 'february' class element */
+.january, .february {
+    text-align: right;
+}
+
+/* modify nav bars style */
+nav a {
+    text-decoration: none;
+    padding:0.2em 0.6em;
+    border: 4px solid #ccc;
+}
+
+/* change bullet point type of definition list */
+ol li ul li {
+    list-style-type: square;
+}
+
+/* modify aside element pseudo-class */
+aside:hover {
+    display: none;
+}
+
+/* add border to table */
+table, tr, th, td{
+    border: 1px solid black;     
+}
